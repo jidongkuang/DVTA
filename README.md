@@ -11,7 +11,7 @@ This is an official PyTorch implementation of **"Zero-Shot Skeleton-based Action
 ## Installation
 ```bash
 # Install the python libraries
-$ cd SMIE
+$ cd DVTA
 $ pip install -r requirements.txt
 ```
 
