@@ -1,8 +1,6 @@
-# DVTA
-This is an official PyTorch implementation of **"Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment"**.
+# DVTA: Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment
 
-# Framework
-<!--![SMIE](https://github.com/YujieOuO/SMIE/blob/main/images/pipeline.png)-->
+This repository contains the official PyTorch implementation for the paper **"Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment" (DVTA)**.
 
 ## Requirements
 ![python = 3.9](https://img.shields.io/badge/python-3.9.18-green)
@@ -16,8 +14,9 @@ $ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-We apply the same dataset processing as [SMIE](https://github.com/YujieOuO/SMIE).  
+Data will be publicly available soon.
 <!--!
+We apply the same dataset processing as [SMIE](https://github.com/YujieOuO/SMIE). 
 ### Semantic Features
 For the Semantic Features, You can download in BaiduYun link: [Semantic Feature](https://pan.baidu.com/s/1y2r15lxGF3i9aPa1ARfRiQ).
 
@@ -41,14 +40,14 @@ Our DVTA employs two experiment setting.
 Example for training and testing on NTU-60 split_5 data.
 ```bash
 # SynSE Experiment Setting
-$ python procedure.py with 'train_mode="sota"'
+$ python train.py with track='sota' dataset_name='ntu60' sota_unseen_split='5'
 ```
 
 ### SMIE Experiment Setting
 Example for training and testing on NTU-60 split_1.  
 ```bash
 # Optimized Experiment Setting
-$ python procedure.py with 'train_mode="main"'
+$ python train.py with track='custom' dataset_name='ntu60' custom_unseen_split='1'
 ```
 
 ## Acknowledgement
