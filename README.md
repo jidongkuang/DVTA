@@ -6,7 +6,7 @@ This repository contains the official PyTorch implementation for the paper **"Ze
 - 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
 - 🚨 **Paper Portal for Top Conferences in the Field of Artificial intelligence: [CV_Paper_Portal](https://hongsong-wang.github.io/CV_Paper_Portal/)**
 
-## Hightlights
+## Pipeline
 <p align="center">
   <img src="images/pipeline.png" width="80%">
 <br>
