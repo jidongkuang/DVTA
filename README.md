@@ -1,6 +1,6 @@
-# DVTA: Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment
+# [DVTA: Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment](https://www.sciencedirect.com/science/article/abs/pii/S0031320325010039), [arXiv](https://arxiv.org/abs/2409.14336)
 
-This repository contains the official PyTorch implementation for the paper **"Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment" (DVTA)**.
+This repository contains the official PyTorch implementation for the paper **"Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment" (DVTA)**, Pattern Recognition, 2026.
 
 ## Requirements
 ![python = 3.9](https://img.shields.io/badge/python-3.9.18-green)
@@ -58,3 +58,14 @@ This project is licensed under the terms of the MIT license.
 
 ## Contact
 For any questions, feel free to contact: jidongkuang@seu.edu.cn
+
+```
+@article{KUANG2026112342,
+title = {Zero-shot skeleton-based action recognition with dual visual-text alignment},
+author = {Jidong Kuang and Hongsong Wang and Chaolei Han and Yang Zhang and Jie Gui},
+journal = {Pattern Recognition},
+volume = {171},
+pages = {112342},
+year = {2026},
+issn = {0031-3203},
+}
