@@ -2,6 +2,17 @@
 
 This repository contains the official PyTorch implementation for the paper **"Zero-Shot Skeleton-based Action Recognition with Dual Visual-Text Alignment" (DVTA)**, Pattern Recognition, 2026.
 
+## 📰 News
+- 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
+- 🚨 **Paper Portal for Top Conferences in the Field of Artificial intelligence: [CV_Paper_Portal](https://hongsong-wang.github.io/CV_Paper_Portal/)**
+
+## Hightlights
+<p align="center">
+  <img src="images/pipeline.png" width="70%">
+<br>
+  <b>Figure: Comparison of least bit-planes between real images and AI-generated images.</b>
+</p>
+
 ## Requirements
 ![python = 3.9](https://img.shields.io/badge/python-3.9.18-green)
 ![torch = 2.1.1+cu118](https://img.shields.io/badge/torch-2.1.1%2Bcu118-yellowgreen)
