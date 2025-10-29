@@ -8,9 +8,9 @@ This repository contains the official PyTorch implementation for the paper **"Ze
 
 ## Hightlights
 <p align="center">
-  <img src="images/pipeline.png" width="70%">
+  <img src="images/pipeline.png" width="80%">
 <br>
-  <b>Figure: Comparison of least bit-planes between real images and AI-generated images.</b>
+  <b>Figure 1: Framework of the proposed Dual Visual-Text Alignment (DVTA). It jointly optimizes two alignment modules—Direct Alignment (DA) and Augmented Alignment (AA)—in a supervised manner.</b>
 </p>
 
 ## Requirements
